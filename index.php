@@ -60,7 +60,7 @@
 		case 'http://localhost/bookself/':
 			$env = 'testing';
 			break;
-		case 'bookself-lib.herokuapp.com':
+		case 'bookselfs.herokuapp.com':
 			$env = 'production';
 			break;
 		default:
