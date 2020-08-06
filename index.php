@@ -54,7 +54,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  */
 	switch ($_SERVER['HTTP_HOST']) {
-		case 'ansora.test':
+		case 'http://localhost/bookself/':
 			$env = 'development';
 			break;
 		case 'http://localhost/bookself/':
