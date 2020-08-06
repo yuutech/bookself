@@ -57,10 +57,10 @@
 		case 'ansora.test':
 			$env = 'development';
 			break;
-		case 'http://localhost/backend_ansora/':
+		case 'http://localhost/bookself/':
 			$env = 'testing';
 			break;
-		case 'ansora.herokuapp.com':
+		case 'bookself-lib.herokuapp.com':
 			$env = 'production';
 			break;
 		default:
