@@ -28,7 +28,7 @@ if (ENVIRONMENT !== 'production') {
 } elseif (ENVIRONMENT == 'testing') {
     $config['base_url'] = 'http://localhost/bookself/';
 } else {
-    $config['base_url'] = 'https://yuushop.herokuapp.com/';
+    $config['base_url'] = 'https://bookself-lib.herokuapp.com/';
 }
 
 /*
