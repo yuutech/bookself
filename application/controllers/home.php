@@ -6,6 +6,8 @@ class Home extends CI_Controller
     function __construct()
     {
         parent::__construct();
+        $this->load->model('model_buku');
+        $this->load->model('invoice_m');
     }
     public function index()
     {
