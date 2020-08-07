@@ -16,7 +16,7 @@ class Home extends CI_Controller
         die();
         // $buku = $this->model_buku->tampildata()->result();
         $data = array(
-            'buku' => $buku,
+            // 'buku' => $buku,
         );
         $this->load->view('template/header');
         $this->load->view('index', $data);
