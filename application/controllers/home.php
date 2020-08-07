@@ -12,6 +12,8 @@ class Home extends CI_Controller
         $data = array(
             'buku' => $buku,
         );
+        var_dump(ENVIRONMENT);
+        die();
         $this->load->view('template/header');
         $this->load->view('index', $data);
         $this->load->view('template/footer');

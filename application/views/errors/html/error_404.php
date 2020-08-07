@@ -6,7 +6,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <head>
 	<meta charset="utf-8">
-	<title>404 Page Not Found</title>
+	<title>404 Page Found</title>
 	<style type="text/css">
 		::selection {
 			background-color: #E13300;
@@ -68,7 +68,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<div id="container">
 		<h1><?php echo $heading; ?></h1>
 		<?php echo $message; ?>
-		<?= base_url(); ?>
+		<?php echo base_url(); ?>
+		<?php echo site_url(); ?>
 	</div>
 </body>
 
