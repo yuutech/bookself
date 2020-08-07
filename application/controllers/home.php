@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') or exit('No direct script access allowed');
+// defined('BASEPATH') or exit('No direct script access allowed');
 
 date_default_timezone_set('Asia/Jakarta');
 class Home extends CI_Controller
@@ -7,7 +7,7 @@ class Home extends CI_Controller
     function __construct()
     {
         parent::__construct();
-        $this->load->model('model_buku');
+        // $this->load->model('model_buku');
     }
     public function index()
     {
