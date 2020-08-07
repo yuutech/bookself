@@ -58,7 +58,7 @@ p {
 <body>
 	<div id="container">
 		<h1><?php echo $heading; ?></h1>
-		<?php echo $message; ?>
+		<?php echo $message; echo base_url(); ?>
 	</div>
 </body>
 </html>
