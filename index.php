@@ -55,17 +55,17 @@
  * NOTE: If you change these, also change the error_reporting() code below
  */
 switch ($_SERVER['HTTP_HOST']) {
-	case 'localhost/bookself':
+	case 'http://localhost/bookself/':
 		$env = 'development';
 		break;
-	case 'localhost/bookself':
+	case 'localhost/bookself/':
 		$env = 'testing';
 		break;
 	case 'bookselfs.herokuapp.com':
 		$env = 'production';
 		break;
 	default:
-		$env = 'production';
+		$env = 'development';
 		break;
 }
 define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : $env);
