@@ -12,6 +12,7 @@ class Home extends CI_Controller
         $this->load->model('category_m');
         $this->load->model('penerbit_m');
         $this->load->model('count_m');
+        $this->load->model('product_model');
     }
     public function index()
     {
