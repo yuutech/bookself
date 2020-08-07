@@ -3,16 +3,20 @@
 date_default_timezone_set('Asia/Jakarta');
 class Home extends CI_Controller
 {
-
+    function __construct()
+    {
+        parent::__construct();
+        // $this->load->model('');
+    }
     public function index()
     {
 
+        var_dump($_SERVER['HTTP_HOST']);
+        die();
         $buku = $this->model_buku->tampildata()->result();
         $data = array(
             'buku' => $buku,
         );
-        var_dump($_SERVER['HTTP_HOST']);
-        die();
         $this->load->view('template/header');
         $this->load->view('index', $data);
         $this->load->view('template/footer');
