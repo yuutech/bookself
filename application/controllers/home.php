@@ -6,13 +6,13 @@ class Home extends CI_Controller
     function __construct()
     {
         parent::__construct();
-        $this->load->model('Model_buku');
-        $this->load->model('Invoice_m');
-        $this->load->model('User_m');
-        $this->load->model('Category_m');
-        $this->load->model('Penerbit_m');
-        $this->load->model('Count_m');
-        $this->load->model('Product_model');
+        $this->load->model('model_buku');
+        $this->load->model('invoice_m');
+        $this->load->model('user_m');
+        $this->load->model('category_m');
+        $this->load->model('penerbit_m');
+        $this->load->model('count_m');
+        $this->load->model('product_model');
     }
     public function index()
     {
