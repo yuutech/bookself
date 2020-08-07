@@ -68,7 +68,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<div id="container">
 		<h1><?php echo $heading; ?></h1>
 		<?php echo $message; ?>
-		feffefsefesfsefsefesfe
+		<?= base_url(); ?>
 	</div>
 </body>
 

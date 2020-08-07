@@ -125,7 +125,7 @@ class CI_Exceptions
 			$message = 'The controller/method pair you requested was not found.';
 		} else {
 			$heading = '404 Page Not Found';
-			$message = 'The page you requested was not found.' . base_url();
+			$message = 'The page you requested was not found.';
 		}
 
 		// By default we log this, but allow a dev to skip it
