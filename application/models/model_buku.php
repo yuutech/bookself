@@ -7,7 +7,7 @@ class Model_buku extends CI_Model
         $this->db->select('*');
         $this->db->from('tb_buku');
         $this->db->join('tb_kategori', 'tb_kategori.kd_kategori = tb_buku.kd_kategori ');
-        return   $query = $this->db->get();
+        return $this->db->get();
     }
 
     public function find($kd)
