@@ -2,7 +2,7 @@
 
 date_default_timezone_set('Asia/Jakarta');
 
-class Home extends CI_Controller {
+class home extends CI_Controller {
 
 	public function index() 
     {
