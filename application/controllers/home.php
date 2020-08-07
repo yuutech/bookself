@@ -1,12 +1,11 @@
 <?php
-
-date_default_timezone_set('Asia/Jakarta');
+// date_default_timezone_set('Asia/Jakarta');
 class Home extends CI_Controller
 {
     function __construct()
     {
         parent::__construct();
-        // $this->load->model('');
+        $this->load->model('model_buku');
     }
     public function index()
     {
@@ -23,7 +22,6 @@ class Home extends CI_Controller
     }
     public function tambah_ke_keranjang($kd)
     {
-        # code...
         $buku = $this->model_buku->find($kd);
         $data = array(
             'id'      => $buku->kd_buku,
