@@ -13,7 +13,7 @@ class Home extends CI_Controller
     {
 
         var_dump($_SERVER['HTTP_HOST']);
-        die();
+        // die();
         // $buku = $this->model_buku->tampildata()->result();
         $data = array(
             // 'buku' => $buku,
